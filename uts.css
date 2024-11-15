@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background: #7a775a;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+   
+   
+}
+
+footer {
+    background: #7a775a;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 99%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.banner {
+    background: url('benner2.jpg') no-repeat center center;
+    height: 400px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
